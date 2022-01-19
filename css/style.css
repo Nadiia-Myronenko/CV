@@ -35,7 +35,7 @@ body {
 .about-me-profession {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 17px;
   color: #000;
   margin: 0 0 20px 0;
@@ -153,7 +153,7 @@ body {
 .sidebar-section {
   background: #1e2939;
   width: 370px;
-  padding: 40px 0;
+  padding-bottom: 40px;
 }
 .photo {
   width: 370px;
