@@ -56,6 +56,7 @@ ul {
   line-height: 55px;
   color: #dab0af;
   margin: 25px 0 25px 0;
+  text-shadow: 1px 1px 4px #372b25;
 }
 .about-me-description {
   font-style: italic;
