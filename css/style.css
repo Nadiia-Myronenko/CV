@@ -1,67 +1,73 @@
 body {
-  background-color: #f5f7fa;
+  background-color: #372b25;
   font-family: "Monserrat", sans-serif;
 }
-
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin-top: 0px;
+}
 .main-container {
   display: flex;
   flex-direction: row-reverse;
   width: 1200px;
   background: #fff;
   margin: 40px auto;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 /* main content section*/
 .main-content-section {
-  padding: 100px 40px;
   width: 830px;
+  padding-bottom: 50px;
 }
-
+.main-content-section section {
+  padding: 20px 40px;
+}
 .main-content-title {
-  font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 22px;
   line-height: 27px;
-  color: #000;
-  margin-bottom: 10px;
+  color: #372b25;
+  margin-bottom: 30px;
+  background-color: #dab0af;
+  text-transform: uppercase;
+  padding: 6px;
 }
 
 /*about-me-section*/
 .about-me-section {
-  margin: 0 0 40px 0;
+  background-color: #6f5a59;
 }
 
 .about-me-profession {
-  font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 17px;
-  color: #000;
-  margin: 0 0 20px 0;
+  color: #fff;
+  margin: 0 0 40px 0;
 }
 .my-name {
-  font-style: normal;
-  font-weight: bold;
   font-size: 45px;
   line-height: 55px;
-  color: #000000;
-  margin: 0 0 25px 0;
+  color: #dab0af;
+  margin: 25px 0 25px 0;
 }
 .about-me-description {
-  font-style: normal;
-  font-weight: normal;
+  font-style: italic;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: #fff;
 }
 /*my projects section*/
 
-.my-projects-section {
-  margin: 0 0 50px 0;
-}
 .my-projects-list {
   padding: 0 0 0 17px;
+  margin-bottom: 0;
 }
 .my-projects-item {
   color: #000;
@@ -88,18 +94,15 @@ body {
 /*my work experience section*/
 
 .my-work-experience-position {
-  font-style: normal;
-  font-weight: bold;
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 10px;
+  color: #372b25;
 }
 .my-work-exprience-company {
-  color: #fb6d3a;
+  color: #dab0af;
 }
 .my-work-experience-time {
-  font-style: normal;
-  font-weight: normal;
   font-size: 12px;
   line-height: 15px;
   color: #a8a8a8;
@@ -124,20 +127,16 @@ body {
 /*My education section*/
 
 .educational-institution {
-  font-style: normal;
-  font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  color: #fb6d3a;
+  color: #372b25;
   margin-bottom: 11px;
 }
 .specialty {
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 17px;
-  color: #000;
-  margin-bottom: 12px;
+  color: #dab0af;
+  margin-left: 10px;
 }
 .study-period {
   font-style: normal;
@@ -167,7 +166,7 @@ body {
 .contacts-section,
 .tech-skills-section,
 .soft-scills-section {
-  margin: 50px 0 0 40px;
+  margin: 35px 0 0 40px;
 }
 .sidebar-title {
   font-style: normal;
@@ -183,7 +182,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #565e6a;
+  color: #372b25;
 }
 
 .contacts-section-type {
@@ -204,7 +203,7 @@ body {
 }
 .tech-skills-item,
 .soft-skills-item {
-  color: #fb6d3a;
+  color: #fff;
 }
 .tech-scills-item-text,
 .soft-scills-item-text {
@@ -212,5 +211,5 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #fff;
+  color: #372b25;
 }
