@@ -50,6 +50,7 @@ ul {
   line-height: 17px;
   color: #fff;
   margin: 0 0 40px 0;
+  text-shadow: 1px 1px 4px #372b25;
 }
 .my-name {
   font-size: 45px;
