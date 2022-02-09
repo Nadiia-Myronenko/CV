@@ -60,7 +60,6 @@ ul {
   text-shadow: 1px 1px 4px #372b25;
 }
 .about-me-description {
-  font-style: italic;
   font-size: 14px;
   line-height: 24px;
   color: #fff;
@@ -76,15 +75,23 @@ ul {
   font-weight: bold;
 }
 .my-projects-text,
-.my-projects-link {
+.my-projects-name,
+.project-description {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   color: #595959;
 }
+.my-projects-name {
+  text-transform: uppercase;
+  font-weight: bold;
+}
 .my-projects-text {
   margin-left: 5px;
+}
+.my-projects-link {
+  color: #595959;
 }
 .my-projects-bracket {
   font-style: normal;
@@ -93,6 +100,7 @@ ul {
   line-height: 24px;
   color: #000000;
 }
+
 /*my work experience section*/
 
 .my-work-experience-position {
@@ -186,14 +194,13 @@ ul {
   line-height: 24px;
   color: #372b25;
 }
-
-.contacts-section-type {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
-  color: #fff;
-  margin-right: 7px;
+.social-networks-list {
+  display: flex;
+  list-style: none;
+  padding: 12px 0 0;
+}
+.social-networks-list-link {
+  margin-right: 10px;
 }
 .tech-skills-section,
 .soft-scills-section {
