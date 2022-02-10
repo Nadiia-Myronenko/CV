@@ -14,7 +14,7 @@ ul {
 .main-container {
   display: flex;
   flex-direction: row-reverse;
-  width: 900px;
+  width: 1200px;
   background: #fff;
   margin: 0 auto;
 }
