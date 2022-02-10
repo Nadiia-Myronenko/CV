@@ -21,6 +21,7 @@ ul {
 
 /* main content section*/
 .main-content-section {
+  width: 830px;
   padding-bottom: 50px;
 }
 .main-content-section section {
@@ -160,7 +161,7 @@ ul {
 /*sidebar section*/
 .sidebar-section {
   background: #dab0af;
-  width: 319px;
+  width: 370px;
   padding-bottom: 40px;
   padding-top: 30px;
 }
