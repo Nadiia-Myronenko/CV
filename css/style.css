@@ -175,7 +175,8 @@ ul {
 }
 .contacts-section,
 .tech-skills-section,
-.soft-scills-section {
+.soft-scills-section,
+.info-section {
   margin: 35px 0 0 40px;
 }
 .sidebar-title {
@@ -187,12 +188,17 @@ ul {
   margin-bottom: 10px;
 }
 /* contacts section */
-.contacts-section-link {
+address,
+.contacts-section-link,
+.info-table {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   color: #372b25;
+}
+.info-table td{
+  padding-right: 20px;
 }
 .social-networks-list {
   display: flex;
